@@ -5,5 +5,6 @@ public class Main {
     public static void main(String[] args) {
         SampleClassOne sampleClassOne = new SampleClassOne();
         sampleClassOne.invokeJackException();
+		sampleClassOne.invokeJaneException();
     }
 }
