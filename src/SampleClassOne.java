@@ -8,4 +8,9 @@ public class SampleClassOne {
         String s = null;
         s.hashCode();
     }
+	
+	//throws ArithmeticException
+	public void invokeJaneException(){
+	    int n = 10 / 0; 
+	}
 }
