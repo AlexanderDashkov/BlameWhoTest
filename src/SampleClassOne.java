@@ -11,6 +11,6 @@ public class SampleClassOne {
 	
 	//throws ArithmeticException
 	public void invokeJaneException(){
-	    int n = 10 / 0; 
+	    int n = 10.0/ 0;
 	}
 }
